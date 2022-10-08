@@ -22,7 +22,7 @@ public class VictusPotions implements AutoRegistryContainer<Potion> {
         BrewingRecipeRegistryInvoker.victus_register(Potions.HARMING, Items.GLOW_LICHEN, HEARTBLEED);
         BrewingRecipeRegistryInvoker.victus_register(Potions.REGENERATION, Items.MAGMA_CREAM, RESURGENCE);
         BrewingRecipeRegistryInvoker.victus_register(RESURGENCE, Items.REDSTONE, LONG_RESURGENCE);
-        BrewingRecipeRegistryInvoker.victus_register(RESURGENCE, Items.GLOWSTONE, STRONG_RESURGENCE);
+        BrewingRecipeRegistryInvoker.victus_register(RESURGENCE, Items.GLOWSTONE_DUST, STRONG_RESURGENCE);
     }
 
     public static ItemStack createHeartbleedPotion() {
